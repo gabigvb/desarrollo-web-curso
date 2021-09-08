@@ -369,9 +369,10 @@ body{
    background-color:;
 }
 
-header{
-   height: 1000px;
-}
+
+#imagenFondo{
+  height: 800px;
+  }
 
 
    
@@ -411,6 +412,8 @@ video{
 
 .container-contacto{
    width: 100%;
+   padding: 0 100px;
+   margin-top:110px;
 }
 
 /*--PAGINA ACERCA DE--*/
@@ -428,7 +431,6 @@ table{
    text-align: center;
    width: 100%;
    padding-bottom: 40px;
-   position: absolute;
    bottom: 150px;
 }
 
@@ -443,7 +445,8 @@ table{
 
 .img-nosotros{
    width: 100%;
-   height: 800px;   
+   height: 800px;
+   justify-content: center;   
 }
 
 }
