@@ -28,7 +28,7 @@ body {
 }
 
 #imagenFondo{
-   background:url("imagenes_css/trail-running2.jpg") no-repeat center center;
+   background:url("imagenes_css/imagen_fondo.jpg") no-repeat center center;
      opacity: 0.9;
    background-size:cover;
    }
@@ -90,7 +90,8 @@ body {
    width: 100%;
    text-align: center;
    font-size:30px ;
-   color: black;
+   color: white;
+   -webkit-text-stroke:0px black;
    font-family: 'GFS Didot', serif;
    padding-top: 10px;
 }
@@ -100,7 +101,8 @@ body {
 #olavarria{
    font-family: 'Pacifico', cursive;
     display: inline;
-   color: black;
+   color: transparent;
+   -webkit-text-stroke:1px white;
 }
 
 /*articulos*/
