@@ -9,7 +9,7 @@ body {
    }
 
 #background_image{
-  background: url("styles/imagenes_css/background_image.JPG")no-repeat center center;
+  background: url("styles/imagenes_css/background_image.jpg")no-repeat center center;
   background-size: cover;
 }   
 
@@ -28,7 +28,7 @@ header{
 
 
 #imagenFondo{
-   background:url("styles/imagenes_css/imagen_fondo.JPG") no-repeat center center;
+   background:url("styles/imagenes_css/imagen_fondo.jpg") no-repeat center center;
      opacity: 0.9;
    background-size:cover;
    }
@@ -254,7 +254,7 @@ img{
 }
 
 #img-fondo-contacto{
-  background:url("imagenes_css/imagen_fondo_2.JPG")no-repeat center center;
+  background:url("imagenes_css/imagen_fondo_2.jpg")no-repeat center center;
   background-size:cover;
 }
 
@@ -320,7 +320,7 @@ table, th, td {
 }
 
 #img-lugar{
-  background: url("imagenes_css/imagen_fondo3.JPG")no-repeat center center;
+  background: url("imagenes_css/imagen_fondo3.jpg")no-repeat center center;
   background-size: cover;
   padding-top: 88px;
 }
