@@ -9,7 +9,7 @@ body {
    }
 
 #background_image{
-  background: url("imagenes_css/background_image.jpg")no-repeat center center;
+  background: url("styles/imagenes_css/background_image.jpg")no-repeat center center;
   background-size: cover;
 }   
 
@@ -28,7 +28,7 @@ header{
 
 
 #imagenFondo{
-   background:url("imagenes_css/imagen_fondo.jpg") no-repeat center center;
+   background:url("styles/imagenes_css/imagen_fondo.jpg") no-repeat center center;
      opacity: 0.9;
    background-size:cover;
    }
