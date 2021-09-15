@@ -8,6 +8,15 @@ body {
       font-family: monospace,monaco;
    }
 
+#background_image{
+  background: url("imagenes_css/background_image.jpg")no-repeat center center;
+  background-size: cover;
+}   
+
+header{
+  z-index: 10;
+}   
+
 
 .logo{
    width: 140px;
@@ -16,16 +25,7 @@ body {
 
 }
 
-.container{
- padding: 50px 0px !important;
- width: 100%;
-   
-}
 
-#myCarousel img{
-   padding: 0px !important;
-   width: 100%;
-}
 
 #imagenFondo{
    background:url("imagenes_css/imagen_fondo.jpg") no-repeat center center;
@@ -39,7 +39,7 @@ body {
       position: fixed;
       top:0;
       background:black;
-      z-index: 1000;
+      z-index: ;
       margin: 0;
    }
 
@@ -65,7 +65,7 @@ body {
       position: fixed;
       margin: 0;
       background:black;
-      z-index: 1000;
+      z-index: ;
    }
 
    header nav ul li {
@@ -103,6 +103,22 @@ body {
     display: inline;
    color: transparent;
    -webkit-text-stroke:1px white;
+}
+
+.container{
+ padding: 50px 0px !important;
+ width: 100%;
+ position: relative;
+ z-index: 0;  
+}
+
+.carouse1{
+  z-index: 9;
+}
+
+#myCarousel img{
+   padding: 0px !important;
+   width: 100%;
 }
 
 /*articulos*/
@@ -169,6 +185,10 @@ img{
    color: white ;
 }
 
+.articulo2 h2{
+  color: white;
+}
+
 .footer{
    width: 100%;
    position: absolute;
@@ -186,12 +206,15 @@ img{
   padding-top:30px ;
 }
 
+.redes a{
+  margin:0 10px;
+  }
+
 .redes i{
    font-size: 20px;
    margin: 0 10px;
    display: grid;
-   columns: 1fr;
-   ;
+   columns: 
 }
 
 .copy h6{
@@ -210,7 +233,6 @@ img{
    margin-bottom: ;
    display: flex;
    left: 80px;
-    ;
 }
 
 /*--PAGINA CONTACTO--*/
@@ -222,14 +244,22 @@ img{
 .container-contacto h1{
    text-align: center;
    font-size: 50px;
+   color: white;
 }
 
 .container-contacto h2{
   text-align: center;
   font-size: 20px;
+  color: white;
+}
+
+#img-fondo-contacto{
+  background:url("imagenes_css/imagen_fondo_2.jpg")no-repeat center center;
+  background-size:cover;
 }
 
 .formulario{
+  color: white;
    width: 100%;
    display: block;
    padding: 63px;
@@ -245,6 +275,14 @@ img{
    font-size: 20px;
 }
 
+textarea{
+  resize: none;
+}
+
+.btn-msg{
+  background-color: gray;
+}
+
 /*--PAGINA ACERCA DE--*/
 
 .container-info{
@@ -254,6 +292,10 @@ img{
 
 .container-info h1{
    font-size: 30px;
+}
+
+.img-info{
+  align-items: center;
 }
 
 table{
@@ -277,12 +319,19 @@ table, th, td {
    padding: 50px;
 }
 
+#img-lugar{
+  background: url("imagenes_css/imagen_fondo3.jpg")no-repeat center center;
+  background-size: cover;
+  padding-top: 88px;
+}
+
 .container-map{
    overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
 height:0;
 padding-top: 20px;
+z-index:0;
 }
 
 .container-map iframe{
@@ -291,6 +340,7 @@ top:0;
 height:100%;
 width:100%;
 position:absolute;
+
 }
 
 /*--PAGINA NOSOTROS--*/
