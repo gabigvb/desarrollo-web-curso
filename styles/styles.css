@@ -29,7 +29,7 @@ header{
 
 
 #imagenFondo{
-   background:url("imagenes_css/imagen_fondo.JPG") no-repeat center center;
+   background:url("imagenes_css/imagen_fondo.jpg") no-repeat center center;
      opacity: 0.9;
    background-size:cover;
    }
@@ -255,7 +255,7 @@ img{
 }
 
 #img-fondo-contacto{
-  background:url("imagenes_css/imagen_fondo_2.JPG")no-repeat center center;
+  background:url("imagenes_css/imagen_fondo_2.jpg")no-repeat center center;
   background-size:cover;
 }
 
