@@ -327,7 +327,7 @@ table, th, td {
 }
 
 #img-lugar{
-  background: url("imagenes_css/imagen_fondo3.JPG")no-repeat center center;
+  background: url("imagenes_css/imagen_fondo3.jpg")no-repeat center center;
   background-size: cover;
   padding-top: 88px;
 }
