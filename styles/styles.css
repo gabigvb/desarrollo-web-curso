@@ -296,17 +296,23 @@ textarea{
 }
 
 .img-info{
-  align-items: center;
+ position: relative;
+ width:100%;
 }
 
 table{
    width: 100%;
-   border: 1px solid black;
+   border: 1px solid white;
    border-collapse: collapse;
+   color: gray
+}
+
+.table h2{
+  color: gray;
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 .table{
    padding: 50px;
@@ -454,7 +460,7 @@ video{
 .titulo-contacto{
    float: right;
    position: relative;
-   left: 70rem;
+   left: 77rem;
    font-size: 20px;
     ;
 }
@@ -471,6 +477,12 @@ video{
 
 .container-info p{
   margin: 60px;
+}
+
+.img-info{
+  width: 50%;
+  display: flex;
+  left: 48rem;
 }
 
 table{
